@@ -1,5 +1,5 @@
 {% set name = "makefun" %}
-{% set version = "1.13.1" %}
+{% set version = "1.14.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/makefun-{{ version }}.tar.gz
-  sha256: 985bb8b670ffbbb95d2a8aa996d318e6e9a3f26fc6f3ef2da93ebdf8f9c616bf
+  sha256: 770c6e458f1ef47304185334f1d686ee201755d06152a878e2646275340c181d
 
 build:
   noarch: python
