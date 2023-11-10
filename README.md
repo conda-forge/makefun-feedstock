@@ -1,11 +1,11 @@
-About makefun
-=============
+About makefun-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/makefun-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/smarie/python-makefun
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/makefun-feedstock/blob/main/LICENSE.txt)
 
 Summary: Small library to dynamically create python functions.
 
