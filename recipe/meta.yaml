@@ -1,5 +1,5 @@
 {% set name = "makefun" %}
-{% set version = "1.15.6" %}
+{% set version = "1.16.0" %}
 
 
 package:
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/makefun-{{ version }}.tar.gz
-  sha256: 26bc63442a6182fb75efed8b51741dd2d1db2f176bec8c64e20a586256b8f149
+  sha256: e14601831570bff1f6d7e68828bcd30d2f5856f24bad5de0ccb22921ceebc947
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -20,6 +20,7 @@ requirements:
     - pip
     - pytest-runner
     - python {{ python_min }}
+    - setuptools
     - setuptools_scm
   run:
     - python >={{ python_min }}
